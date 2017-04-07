@@ -35,7 +35,16 @@ web site</a>:
 
 ## Scripts
 
-There is one script that subsets the downloaded dataset to include the two days we're interested in - Feb 1, 2007 and Feb 2, 2007  - febOneTwo.R - and creates the data table used to create the plots.
+* <b>febOneTwo.R</b> - this script subsets the downloaded dataset to include the two days we're interested in - Feb 1, 2007 and Feb 2, 2007 and creates the data table used to create the plots.
 
-There are four separate scripts for creating the four required plots, each of which calls febOneTwo.R.  This recreates the source data table for each plot.  While not the most efficient way of creating the plots, it enables each plot to be created independently.
+* <b>plot1.R</b> - creates plot1.png
+
+* <b>plot2.R</b> - creates plot2.png
+
+* <b>plot3.R</b> - creates plot3.png
+
+* <b>plot4.R</b> - creates plot4.png
+
+
+
 
