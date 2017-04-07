@@ -1,12 +1,3 @@
-## Install dplyr libraries to be used , download if needed
-
-if(!is.element('dplyr', installed.packages()[,1]))
-{install.packages('dplyr')
-}else {print("dplyr library already installed")}
-
-## load libraries
-library(dplyr)
-
 ## read into data table, then subset
 ## assumes txt file containing the data - household_power_consumption.txt -  is in the level one above the working directory
 ## text file uses ";" as a separator
